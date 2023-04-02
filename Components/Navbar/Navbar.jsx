@@ -24,7 +24,6 @@ const Navbar = () => {
         <div>
             <div className="relative">
                 <div className="mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl py-4 px-8 shadow-sm flex items-center justify-between bg-white rounded">
-
                     <div className="flex space-x-12">
                         <div className="flex items-center gap-2">
                             <Image src={logo} alt="" width={'30'} />
@@ -37,11 +36,11 @@ const Navbar = () => {
 
                     <div className="flex gap-6 items-center">
                         <ul className="sm:flex gap-6 hidden">
-                            <li className="flex gap-4">
-                                <TfiWorld size={'1.5rem'} className="text-gray-500" />
+                            <li className="flex gap-4 text-gray-500">
+                                <TfiWorld size={'1.5rem'} />
                                 <p>|</p>
-                                <AiOutlineMail size={'1.5rem'} className="text-gray-500" />
-                                <AiOutlineUser size={'1.5rem'} className="text-gray-500" />
+                                <AiOutlineMail size={'1.5rem'} />
+                                <AiOutlineUser size={'1.5rem'} />
                             </li>
                             <li>
                                 <Link href={""} className="text-lg font-medium bg-black text-white rounded py-2 px-4 hover:bg-red-400 hover:text-black transition-all">Get Started</Link>
