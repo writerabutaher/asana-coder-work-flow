@@ -23,7 +23,7 @@ const Navbar = () => {
     return (
         <div>
             <div className="relative">
-                <div className="mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl py-4 px-8 shadow-sm flex items-center justify-between fixed top-0 right-0 left-0 z-10 bg-white rounded">
+                <div className="mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl py-4 px-8 shadow-sm flex items-center justify-between bg-white rounded">
 
                     <div className="flex space-x-12">
                         <div className="flex items-center gap-2">
