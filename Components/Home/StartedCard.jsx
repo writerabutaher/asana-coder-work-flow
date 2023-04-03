@@ -9,7 +9,7 @@ const StartedCard = () => {
                 <h1 className='text-4xl'>Get started easily</h1>
                 <p className='text-xl'>Whether you want to start with a pre-built template for marketing, operations, product, learn more from a demo, or talk to our support team, Asana can help with that.</p>
             </div>
-            <div className='md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 space-y-8 items-center'>
+            <div className='md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 space-y-8'>
                 <div className='bg-white shadow-lg w-[400px]'>
                     <img src="https://assets.asana.biz/transform/e8a84139-c507-4e7e-b4ba-42ae83cbfcea/homepage-template-2x-EN-png" alt="" />
                     <div className='flex flex-col gap-8 p-8'>

@@ -70,20 +70,21 @@ const Tools = () => {
     ]
 
     return (
-        <div>
-            <div className='flex flex-col gap-4 text-gray-600 py-8 max-w-screen-xl mx-auto'>
-                <h1 className='text-4xl'>Get started easily</h1>
-                <p className='text-xl'>Whether you want to start with a pre-built template for marketing, operations, product, learn more from a demo, or talk to our support team, Asana can help with that.</p>
+        <div className='py-20'>
+            <div className='flex flex-col space-y-2 max-w-screen-xl mx-auto'>
+                <h3 className='text-xl'>BRING YOUR WORK TOGETHER</h3>
+                <h1 className='text-4xl'>Connect your tools to Asana</h1>
+                <h3 className='text-xl text-gray-600 pt-2'>We have more than 200+ integrations, so you can use your favorite work tools to communicate, collaborate, and coordinate work in one place, from start to finish.</h3>
             </div>
             <Marquee
                 pauseOnHover={true}
                 gradient={false}
-                className='flex py-20'>
+                className='flex my-20 cursor-pointer'>
                 {
                     toolsData.map((tool, i) => {
                         const { img, title, text, color } = tool;
                         return (
-                            <div key={i} className={`w-[260px] h-[300px] shadow-2xl rounded-xl p-6 flex flex-col gap-4 mx-4 text-white ${color}`}>
+                            <div key={i} className={`w-[260px] h-[300px] shadow-2xl rounded-xl p-6 grid grid-rows-4 items-center gap-4 mx-4 text-white ${color}`}>
                                 <div className='bg-white w-16 rounded-xl flex justify-center p-1'>
                                     <img src={img} alt="" />
                                 </div>
