@@ -6,9 +6,8 @@ import Link from 'next/link'
 const Footer = () => {
     return (
         <footer className="bg-black">
-
             <div className="pt-12 lg:pt-16">
-                <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+                <div className="mx-auto max-w-screen-2xl px-4 md:px-8 border-t pt-20">
                     <div className="mb-16 grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-6 lg:gap-8">
                         <div>
                             <Image src={logo} alt="" width={'30'} />
