@@ -74,7 +74,7 @@ const Tools = () => {
             <div className='flex flex-col space-y-2 max-w-screen-xl mx-auto'>
                 <h3 className='text-xl'>BRING YOUR WORK TOGETHER</h3>
                 <h1 className='text-4xl'>Connect your tools to Asana</h1>
-                <h3 className='text-xl text-gray-600 pt-2'>We have more than 200+ integrations, so you can use your favorite work tools to communicate, collaborate, and coordinate work in one place, from start to finish.</h3>
+                <h3 className='text-xl text-gray-600 pt-2'>We have more than <span className='underline hover:text-red-500 cursor-pointer'>200+ integrations</span>, so you can use your favorite work tools to communicate, collaborate, and coordinate work in one place, from start to finish.</h3>
             </div>
             <Marquee
                 pauseOnHover={true}

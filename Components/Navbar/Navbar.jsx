@@ -21,9 +21,9 @@ const Navbar = () => {
     ]
 
     return (
-        <div>
-            <div className="relative">
-                <div className="mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl py-4 px-8 shadow-sm flex items-center justify-between bg-white rounded">
+        <div className="relative">
+            <div className="w-full bg-white shadow-md fixed top-0 right-0 left-0">
+                <div className="mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl py-4 px-8 flex items-center justify-between">
                     <div className="flex space-x-12">
                         <div className="flex items-center gap-2">
                             <Image src={logo} alt="" width={'30'} />

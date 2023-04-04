@@ -8,7 +8,7 @@ import Boards from './Boards'
 
 const Manage = () => {
     return (
-        <div className='max-w-screen-xl mx-auto px-4'>
+        <div className='max-w-screen-xl mx-auto px-4 pb-20'>
             <div className='pb-32 pt-10'>
                 <AiOutlineArrowDown size={'2rem'} />
             </div>
@@ -18,7 +18,7 @@ const Manage = () => {
                 <h3 className='text-xl text-gray-600 pt-2'>Connect what needs to get done, who's doing it, and by when.</h3>
             </div>
 
-            <div className='py-8 lg:flex space-y-8 items-center justify-between'>
+            <div className='py-12 lg:flex space-y-8 items-center justify-between'>
                 <div className='lg:w-1/2'>
                     <Planning />
                     <Content />
@@ -41,7 +41,7 @@ const Manage = () => {
                 </div>
             </div>
 
-            <div className='py-24 lg:flex space-y-8 items-center justify-between'>
+            <div className='pt-16 lg:flex space-y-8 items-center justify-between'>
                 <div className='lg:w-1/2'>
                     <Boards />
                 </div>

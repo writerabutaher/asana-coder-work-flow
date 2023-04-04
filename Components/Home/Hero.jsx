@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className='max-w-screen-xl mx-auto py-20 px-4'>
+        <div className='max-w-screen-xl mx-auto pb-20 pt-32 px-4'>
             <div className='md:flex items-center justify-between space-y-8'>
                 <div className='flex flex-col space-y-8 lg:w-[40%]'>
                     <h1 className='lg:text-5xl text-4xl'>The best platform for cross-functional work</h1>
