@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) {
+    .calc {
+        width: calc(100% - 240px);
+    }
+}

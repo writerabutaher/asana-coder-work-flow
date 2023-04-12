@@ -11,7 +11,7 @@ const Hero = () => {
                     <p className='text-xl text-gray-600 leading-8'>Want to drive efficiency across your organization? Asana is flexible and easy for all teams to use, so you can deliver quality work together, faster.
                     </p>
                     <div className='flex gap-4'>
-                        <Link href={""} className="text-lg font-medium bg-black text-white rounded py-2 px-4 hover:bg-red-400 hover:text-black transition-all">Get Started</Link>
+                        <Link href={"/dashboard"} className="text-lg font-medium bg-black text-white rounded py-2 px-4 hover:bg-red-400 hover:text-black transition-all">Get Started</Link>
                         <Link href={""} className="text-lg font-medium bg-white text-black rounded py-2 px-4 hover:bg-red-400 hover:text-black transition-all border">See how it works</Link>
                     </div>
                 </div>
