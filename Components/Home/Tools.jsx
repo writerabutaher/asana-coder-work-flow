@@ -84,7 +84,11 @@ const Tools = () => {
                     toolsData.map((tool, i) => {
                         const { img, title, text, color } = tool;
                         return (
+<<<<<<< HEAD
                             <div key={i} className={`w-[260px] h-[300px] shadow-2xl rounded-xl p-6 grid grid-rows-4 items-center gap-4 mx-4 text-white ${color}`}>
+=======
+                            <div key={i} className={`w-[260px] h-[300px] rounded-xl p-6 grid grid-rows-4 items-center gap-4 mx-4 text-white ${color}`}>
+>>>>>>> 0bd57ae (push)
                                 <div className='bg-white w-16 rounded-xl flex justify-center p-1'>
                                     <img src={img} alt="" />
                                 </div>
